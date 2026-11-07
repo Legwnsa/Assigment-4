@@ -1,0 +1,10 @@
+package com.example.search;
+
+import java.util.List;
+
+public interface StringSearch {
+    List<Integer> search(String text, String pattern);
+    String name();
+    long getComparisons();
+    long getMemoryCells();
+}
